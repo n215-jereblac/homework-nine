@@ -333,3 +333,24 @@ footer {
     justify-content: center;
     letter-spacing: 5px;
 }
+
+@media (max-width: 1050px) {
+    .wrapper .chefHolder {
+        margin-bottom: 150px;
+    }
+}
+
+@media (max-width: 950px) {
+    .wrapper .chefHolder {
+        margin-bottom: 250px;
+    }
+}
+
+@media (max-width: 750px) {
+    .wrapper .chefHolder {
+        margin-bottom: 350px;
+    }
+    .wrapper .chefHolder .chefBox {
+       text-align: center;
+    }
+}
