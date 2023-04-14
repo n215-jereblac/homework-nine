@@ -127,6 +127,10 @@ nav a:hover {
     margin-bottom: 30px;
 }
 
+.wrapper h2 {
+    color: palevioletred;
+}
+
 .wrapper span {
     color: palevioletred;
 }
@@ -148,9 +152,10 @@ nav a:hover {
         color: palevioletred;
         cursor: pointer;
     }
+
     .wrapper .aboutText .aboutChef {
        margin-top: 50px;
-}
+    }
 
 .wrapper .chefHolder {
     /* background-color: red; */
@@ -176,6 +181,50 @@ nav a:hover {
     background-position: center;
     background-size: cover;
 }
+
+.wrapper .boxes {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.servicesHolder {
+    margin-top: 30px;
+    /* background-color: aquamarine; */
+    height: 300px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.servicesHolder .servicesPic {
+    width: 25%;
+    height: 100%;
+    background-color: red;
+    background-position: center;
+    background-size: cover;
+}
+
+.servicesHolder .servicesText {
+    width: 60%;
+}
+
+.wrapper .servicesHolder .servicesText .book {
+    background-color: palevioletred;
+    color: white;
+    height: 40px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 17px;
+}
+.wrapper .servicesHolder .servicesText .book:hover {
+    background-color: white;
+    border: 2px solid palevioletred;
+    color: palevioletred;
+    cursor: pointer;
+}
+
 
 .candy1 {
     background: linear-gradient(rgba(255,255,255, .2), rgba(255,255,255,0.2)), url(../images/more2.jpeg);
@@ -203,6 +252,22 @@ nav a:hover {
 
 .chef3 {
     background: linear-gradient(rgba(255,255,255, .2), rgba(255,255,255,0.2)), url(../images/chef3.jpeg);
+}
+
+.services {
+    background: linear-gradient(rgba(255,255,255, .2), rgba(255,255,255,0.2)), url(../images/services.jpg);
+}
+
+.service1 {
+    background: linear-gradient(rgba(255,255,255, .2), rgba(255,255,255,0.2)), url(../images/service1.jpeg);
+}
+
+.service2 {
+    background: linear-gradient(rgba(255,255,255, .2), rgba(255,255,255,0.2)), url(../images/service2.jpg);
+}
+
+.custom {
+    background: linear-gradient(rgba(255,255,255, .2), rgba(255,255,255,0.2)), url(../images/custom.jpeg);
 }
 
 footer {
