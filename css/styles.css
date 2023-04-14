@@ -87,9 +87,75 @@ nav a:hover {
 .home .imgHolder .imgBox {
     /* background-color: blue; */
     height: 300px;
-    width: 350px;
+    width: 25%;
     background-size: cover;
     background-position: center;
+}
+
+.about {
+    min-height: 500px;
+}
+
+.about .header {
+    /* background-color: red; */
+    margin: 0 auto;
+    width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 75%;
+    min-height: 500px;
+}
+
+.wrapper .aboutText {
+    text-align: center;
+    font-size: 18px;
+}
+
+.wrapper h1 {
+    color: palevioletred;
+    margin-bottom: 30px;
+}
+
+.wrapper .tagline {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.wrapper .chefHolder {
+    /* background-color: red; */
+    margin-top: 50px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper .chefHolder .chefBox {
+    /* background-color: aqua; */
+    width: 25%;
+    height: 100%;
+}
+
+.wrapper .chefHolder .chefBox .chefImg{
+    background-color: pink;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-position: center;
+    background-size: cover;
 }
 
 .candy1 {
@@ -102,6 +168,22 @@ nav a:hover {
 
 .candy3 {
     background: linear-gradient(rgba(255,255,255, .2), rgba(255,255,255,0.2)), url(../images/more.jpeg);
+}
+
+.aboutPic {
+    background: linear-gradient(rgba(255,255,255, .2), rgba(255,255,255,0.2)), url(../images/about.jpeg);
+}
+
+.chef1 {
+    background: linear-gradient(rgba(255,255,255, .2), rgba(255,255,255,0.2)), url(../images/chef1.jpeg);
+}
+
+.chef2 {
+    background: linear-gradient(rgba(255,255,255, .2), rgba(255,255,255,0.2)), url(../images/chef2.jpeg);
+}
+
+.chef3 {
+    background: linear-gradient(rgba(255,255,255, .2), rgba(255,255,255,0.2)), url(../images/chef3.jpeg);
 }
 
 footer {
