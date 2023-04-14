@@ -237,7 +237,7 @@ form input {
     margin: 0 auto;
     margin-bottom: 30px;
     height: 60px;
-    width: 50%;
+    width: 60%;
     border: 3px solid palevioletred;
     padding: 20px;
     font-size: 20px;
@@ -247,7 +247,7 @@ form textarea {
     margin: 0 auto;
     margin-bottom: 30px;
     height: 200px;
-    width: 50%;
+    width: 60%;
     border: 3px solid palevioletred;
     padding: 20px;
     font-size: 20px;
@@ -334,6 +334,13 @@ footer {
     letter-spacing: 5px;
 }
 
+@media (max-width: 1075px) {
+    .wrapper .servicesHolder .servicesText{
+        width: 75%;
+        
+    }
+}
+
 @media (max-width: 1050px) {
     .wrapper .chefHolder {
         margin-bottom: 150px;
@@ -343,6 +350,18 @@ footer {
 @media (max-width: 950px) {
     .wrapper .chefHolder {
         margin-bottom: 250px;
+    }
+}
+
+@media (max-width: 860px) {
+    .wrapper .servicesHolder .servicesText h1{
+        font-size: 25px;
+    }
+    .wrapper .servicesHolder .servicesText h2{
+        font-size: 20px;
+    }
+    .wrapper .servicesHolder .servicesText p{
+        font-size: 14px;
     }
 }
 
